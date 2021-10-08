@@ -11,10 +11,14 @@ public class rechnen {
         System.out.println(zahl2 % zahl1);
 
         int multi = 3 * 3;
-        int div = 3 / 1;
+        double div = 3 / (2 * 1.0);
         int sub = 3 -3;
-        int add = 3 +4;
+        int add = 3 + 4;
 
         System.out.println(add);
+        System.out.println(div);
+
+        boolean b = 2 == 2 && 3 == 3;
+        System.out.println(b);
     }
 }

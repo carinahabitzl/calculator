@@ -17,7 +17,44 @@ public class calculator {
         boolean even = 2%2 == 0;
         System.out.println(even);
 
+        printResult(2 + 3);
+        int tt = 2 + 4;
+        printResult(tt);
 
+        int result = add(2, 5);
+        printResult(result);
+        printResult(add(2, 6));
 
+        printNewResult(2 + 3);
+
+        int result2 = formadd(2,3);
+        printNewResult(result2);
+    }
+    public static void printResult(int result) {
+        System.out.println(result);
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static int formadd(int a, int b) {
+        return a + b;
+    }
+    public static int formsub(int a, int b) {
+        return b - a;
+    }
+    public static int formmult(int a, int b) {
+        return a * b;
+    }
+    public static int formdiv(int a, int b) {
+        return a / b;
+    }
+    public static int formmod(int a, int b) {
+        return a % b;
+    }
+
+    public static void printNewResult(int newResult) {
+        System.out.println(newResult);
     }
 }
