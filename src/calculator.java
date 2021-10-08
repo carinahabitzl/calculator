@@ -14,5 +14,10 @@ public class calculator {
         System.out.println(d);
         System.out.println(e);
 
+        boolean even = 2%2 == 0;
+        System.out.println(even);
+
+
+
     }
 }
