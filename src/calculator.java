@@ -29,6 +29,16 @@ public class calculator {
 
         int result2 = formadd(2,3);
         printNewResult(result2);
+
+        int result3 = formsub (6, 3);
+        printNewResult(result3);
+
+        int result4 = formmult (4, 8);
+        printNewResult(result4);
+
+        printNewResult(formdiv(6, 2));
+
+        printNewResult(formmod(9, 4));
     }
     public static void printResult(int result) {
         System.out.println(result);
