@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class rechnen {
     public static void main(String[] args) {
 
@@ -20,5 +22,7 @@ public class rechnen {
 
         boolean b = 2 == 2 && 3 == 3;
         System.out.println(b);
+
+
     }
 }
