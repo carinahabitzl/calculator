@@ -39,6 +39,10 @@ public class calculator {
         printNewResult(formdiv(6, 2));
 
         printNewResult(formmod(9, 4));
+
+        printNewResult(divide(7, 3));
+
+
     }
     public static void printResult(int result) {
         System.out.println(result);
@@ -67,4 +71,18 @@ public class calculator {
     public static void printNewResult(int newResult) {
         System.out.println(newResult);
     }
+
+    public static int divide(int dividend, int divisor) {
+
+        //if (divisor == 0) {
+        //return 0;
+        // }
+        if (divisor != 0) {
+            return dividend / divisor;
+        }
+        return 0;
+
+    }
+
+
 }
